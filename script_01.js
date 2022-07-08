@@ -31,12 +31,15 @@
 
 // JS ist eine Untypisierte Sprache! | untyped
 
-let test;
-test = "Hi";
-test = 2;
-test = true;
+//let test;
+//test = "Hi";
+//test = 2;
+//test = true;
 
+//console.log("Datentyp: " + typeof test);
+//console.log("Inhalt: "+ test);
+/***** 03 Konstanten  *****/
 
-
-console.log("Datentyp: " + typeof test);
-console.log("Inhalt: "+ test);
+const test = "hallo";
+test = "hi";
+console.log(test);

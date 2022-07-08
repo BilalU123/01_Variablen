@@ -40,6 +40,31 @@
 //console.log("Inhalt: "+ test);
 /***** 03 Konstanten  *****/
 
-const test = "hallo";
-test = "hi";
-console.log(test);
+//const test = "hallo";
+//test = "hi"; // KEINE neue Zuweisung zur LZ möglich ---> Fehler
+//console.log(test);
+
+/**** 04 Beispiel ***** */
+
+// Deklaration
+let ageJohn, ageMark;
+let birthYearJohn, birthYearMark;
+
+let date = new Date();
+let year = date.getFullYear();
+console.log(year);
+
+// Wertzuweisung
+ageJohn = 25;
+ageMark = 30;
+
+// Berechnung
+birthYearJohn = year - ageJohn;
+birthYearMark = year - ageMark;
+
+// Ausgabe
+console.log("birthYearJohn: "  + birthYearJohn);
+console.log("birthYearMark: "  + birthYearMark);
+
+ 
+
